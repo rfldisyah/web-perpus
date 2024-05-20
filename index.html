@@ -37,25 +37,12 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
-
-    <!-- navigasi -->
-    <script>
-      function loadNavigation() {
-        fetch("navigasi.html")
-          .then((response) => response.text())
-          .then((data) => {
-            document.getElementById("navigation").innerHTML = data;
-          })
-          .catch((error) => console.log("Error:", error));
-      }
-
-      document.addEventListener("DOMContentLoaded", loadNavigation);
-    </script>
+    <script src="js/navigasi.js"></script>
   </head>
 
   <body>
     <!-- navigasi bar -->
-    <div id="navigation"></div>
+    <div id="navigasi"></div>
     <!-- Spinner Start -->
     <div
       id="spinner"
