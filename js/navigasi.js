@@ -10,7 +10,7 @@ function loadNavigation() {
         case "index.html":
           document.getElementById("nav-home").classList.add("active");
           break;
-        case "about.html":
+        case "profil.html":
           document.getElementById("nav-about").classList.add("active");
           break;
         case "courses.html":
