@@ -44,7 +44,7 @@
         fetch("navigasi.html")
           .then((response) => response.text())
           .then((data) => {
-            document.getElementById("navigation").innerHTML = data;
+            document.getElementById("navigasi").innerHTML = data;
           })
           .catch((error) => console.log("Error:", error));
       }
@@ -55,7 +55,7 @@
 
   <body>
     <!-- navigasi bar -->
-    <div id="navigation"></div>
+    <div id="navigasi"></div>
     <!-- Spinner Start -->
     <div
       id="spinner"
