@@ -37,7 +37,24 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
+<<<<<<< HEAD
     <script src="js/navigasi.js"></script>
+=======
+
+    <!-- navigasi -->
+    <script>
+      function loadNavigation() {
+        fetch("navigasi.html")
+          .then((response) => response.text())
+          .then((data) => {
+            document.getElementById("navigasi").innerHTML = data;
+          })
+          .catch((error) => console.log("Error:", error));
+      }
+
+      document.addEventListener("DOMContentLoaded", loadNavigation);
+    </script>
+>>>>>>> eb2f6950c2c24864e3c3b289c415385b614af8b8
   </head>
 
   <body>
