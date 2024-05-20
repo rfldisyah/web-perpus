@@ -41,6 +41,28 @@
     <!-- navigasi -->
 
     <script src="js/navigasi.js"></script>
+    <style>
+    .vision-mission-list {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .vision-mission-list li {
+      margin-bottom: 10px;
+      text-align: left;
+    }
+    /* Additional CSS for left alignment and numbering */
+    .vision-mission-list {
+      counter-reset: item; /* Initialize counter */
+    }
+    .vision-mission-list li::before {
+      content: counter(item) ". "; /* Using counter to generate numbered list */
+      counter-increment: item;
+      color: #007bff;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+    </style>
   </head>
 
   <body>
@@ -80,216 +102,83 @@
                 </li>
               </ol>
             </nav>
-           
-              <a href="https://app.lapentor.com/sphere/tour-perpustakaan-mutiara-ilmu" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center" style="background-color:#00aaff;color:black;">
-                <span>Virtual Tour</span>
-              </a>
-    
+            <a
+              href="https://app.lapentor.com/sphere/tour-perpustakaan-mutiara-ilmu"
+              class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
+              >Virtual Tour</a
+            >
           </div>
         </div>
       </div>
     </div>
     <!-- Header End -->
 
-    <!-- About Start -->
-    <div class="container-xxl py-5">
-      <div class="container">
-        <div class="row g-5">
-          <div
-            class="col-lg-6 wow fadeInUp"
-            data-wow-delay="0.1s"
-            style="min-height: 400px"
-          >
-            <div class="position-relative h-100">
-              <img
-                class="img-fluid position-absolute w-100 h-100"
-                src="img/about.jpg"
-                alt=""
-                style="object-fit: cover"
-              />
-            </div>
-          </div>
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-            <h6 class="section-title bg-white text-start text-primary pe-3">
-              About Us
-            </h6>
-            <h1 class="mb-4">Welcome to eLEARNING</h1>
-            <p class="mb-4">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-              diam amet diam et eos. Clita erat ipsum et lorem et sit.
-            </p>
-            <p class="mb-4">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
-              lorem sit clita duo justo magna dolore erat amet
-            </p>
-            <div class="row gy-2 gx-4 mb-4">
-              <div class="col-sm-6">
-                <p class="mb-0">
-                  <i class="fa fa-arrow-right text-primary me-2"></i>Skilled
-                  Instructors
-                </p>
-              </div>
-              <div class="col-sm-6">
-                <p class="mb-0">
-                  <i class="fa fa-arrow-right text-primary me-2"></i>Online
-                  Classes
-                </p>
-              </div>
-              <div class="col-sm-6">
-                <p class="mb-0">
-                  <i class="fa fa-arrow-right text-primary me-2"></i
-                  >International Certificate
-                </p>
-              </div>
-              <div class="col-sm-6">
-                <p class="mb-0">
-                  <i class="fa fa-arrow-right text-primary me-2"></i>Skilled
-                  Instructors
-                </p>
-              </div>
-              <div class="col-sm-6">
-                <p class="mb-0">
-                  <i class="fa fa-arrow-right text-primary me-2"></i>Online
-                  Classes
-                </p>
-              </div>
-              <div class="col-sm-6">
-                <p class="mb-0">
-                  <i class="fa fa-arrow-right text-primary me-2"></i
-                  >International Certificate
-                </p>
-              </div>
-            </div>
-            <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
-          </div>
+   <!-- About Start -->
+<div class="container-xxl py-5">
+  <div class="container">
+    <!-- Profile Section -->
+    <div class="row g-5 mb-5"> <!-- Added mb-5 for space -->
+      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px">
+        <div class="position-relative h-100">
+          <img class="img-fluid position-absolute w-100 h-100" src="img/depan2.jpg" alt="" style="object-fit: cover" />
         </div>
       </div>
+      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+        <h6 class="section-title bg-white text-start text-primary pe-3">Profile</h6>
+        <h2 class="mb-4">PERPUSTAKAAN MUTIARA ILMU</h2>
+        <p class="mb-4">
+          Perpustakaan kami berkomitmen untuk menjadi sumber informasi yang handal dalam meningkatkan pengetahuan dan budaya membaca di kalangan siswa dan guru. Dengan fokus pada teknologi, lingkungan, dan kewirausahaan, kami berusaha menciptakan lingkungan belajar yang modern dan relevan dengan perkembangan zaman.
+        </p>
+        <p class="mb-4">
+          Kami selalu berupaya untuk terus meningkatkan kualitas layanan dan fasilitas perpustakaan. Tujuan kami adalah untuk mendukung keberhasilan akademik serta pengembangan pribadi setiap siswa. Melalui berbagai koleksi buku, referensi digital, dan kegiatan literasi yang kami selenggarakan, kami berharap dapat membantu siswa mengembangkan potensi mereka secara maksimal.
+        </p>
+        <p class="mb-4">
+          Kami mengundang Anda untuk memanfaatkan semua sumber daya yang tersedia di Perpustakaan Mutiara Ilmu. Dari katalog online hingga ruang baca yang nyaman, semua fasilitas ini disiapkan untuk mendukung proses belajar Anda. Terima kasih telah mengunjungi website kami. Semoga perpustakaan ini dapat menjadi mitra yang bermanfaat dalam perjalanan akademik Anda.
+        </p>
+      </div>
     </div>
-    <!-- About End -->
 
-    <!-- Team Start -->
-    <div class="container-xxl py-5">
+    <!-- Visi & Misi Section -->
+      <div class="wow fadeInUp text-center" data-wow-delay="0.3s">
+        <h6 class="section-title bg-white text-center text-primary px-3">Visi & Misi</h6>
+       <h2 class="mb-4">Terwujudnya Perpustakaan Yang Kreatif, Inovatif Dan Berwawasan Global</h2>
+          <ul class="vision-mission-list">
+            <li>Menjadikan Perpustakaan Mutiara Ilmu sebagai pusat pengembangan kreativitas dan inovasi di bidang teknologi, lingkungan, kewirausahaan, dan inklusi sosial.</li>
+            <li>Menyelenggarakan layanan perpustakaan yang prima, lengkap dalam koleksi, dan mudah dalam akses.</li>
+            <li>Melaksanakan program peningkatan kegemaran membaca di lingkungan sekolah dan masyarakat sekitar.</li>
+            <li>Melaksanakan program kegiatan literasi di lingkungan sekolah dan masyarakat yang berbasis inklusi sosial dengan memperhatikan kearifan lokal.</li>
+            <li>Menciptakan komunikasi pegiat literasi yang berorientasi pada kompetensi dan kolaborasi.</li>
+          </ul>
+      </div>
+  </div>
+</div>
+<!-- About End -->
+
+<!-- sekapur sirih -->
+<div class="container-xxl py-5">
       <div class="container">
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
           <h6 class="section-title bg-white text-center text-primary px-3">
-            Instructors
+            Sekapur Sirih  
           </h6>
-          <h1 class="mb-5">Expert Instructors</h1>
+          <h2 class="mb-5">Sekapur Sirih Dari Kepala Sekolah</h2>
+          <p class="mb-4">Assalamualaikum warahmatullahi wabarakatuh, Smk bisa smk hebat, vokasi kuat menguatkan indonesia. Mari peserta didik SMK Negeri 6 Pekanbaru, kita kunjungi Perpustakaan <b>MUTIARA ILMU</b> SMK Negeri 6 Pekanbaru sebagai sarana untuk memperoleh ilmu pengetahuan karena dengan membaca buku akan bertambah ilmu pengetahuan kita, buku adalah jendela dunia. Perpustakaan SMK Negeri 6 Pekanbaru adalah perpustakaan berbasis lingkungan, kewirausahaan, dan teknologi. Kunjungi bersama-sama perpustakaan digital SMK Negeri 6 Pekanbaru. Semoga Perpustakaan <b>MUTIARA ILMU</b> tetap berakreditasi A dan selalu ikut bersaing dalam perlombaan perpustakaan tingkat kota Pekanbaru, tingkat provinsi, dan bahkan tingkat nasional. SMK Negeri 6 Pekanbaru bisa, Perpustakaan <b>MUTIARA ILMU</b> luar biasa. Assalamualaikum warahmatullahi wabarakatuh.</p>
+
         </div>
-        <div class="row g-4">
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="team-item bg-light">
-              <div class="overflow-hidden">
-                <img class="img-fluid" src="img/team-1.jpg" alt="" />
-              </div>
-              <div
-                class="position-relative d-flex justify-content-center"
-                style="margin-top: -23px"
-              >
-                <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                  <a class="btn btn-sm-square btn-primary mx-1" href=""
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a class="btn btn-sm-square btn-primary mx-1" href=""
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a class="btn btn-sm-square btn-primary mx-1" href=""
-                    ><i class="fab fa-instagram"></i
-                  ></a>
-                </div>
-              </div>
-              <div class="text-center p-4">
-                <h5 class="mb-0">Instructor Name</h5>
-                <small>Designation</small>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="team-item bg-light">
-              <div class="overflow-hidden">
-                <img class="img-fluid" src="img/team-2.jpg" alt="" />
-              </div>
-              <div
-                class="position-relative d-flex justify-content-center"
-                style="margin-top: -23px"
-              >
-                <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                  <a class="btn btn-sm-square btn-primary mx-1" href=""
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a class="btn btn-sm-square btn-primary mx-1" href=""
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a class="btn btn-sm-square btn-primary mx-1" href=""
-                    ><i class="fab fa-instagram"></i
-                  ></a>
-                </div>
-              </div>
-              <div class="text-center p-4">
-                <h5 class="mb-0">Instructor Name</h5>
-                <small>Designation</small>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-            <div class="team-item bg-light">
-              <div class="overflow-hidden">
-                <img class="img-fluid" src="img/team-3.jpg" alt="" />
-              </div>
-              <div
-                class="position-relative d-flex justify-content-center"
-                style="margin-top: -23px"
-              >
-                <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                  <a class="btn btn-sm-square btn-primary mx-1" href=""
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a class="btn btn-sm-square btn-primary mx-1" href=""
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a class="btn btn-sm-square btn-primary mx-1" href=""
-                    ><i class="fab fa-instagram"></i
-                  ></a>
-                </div>
-              </div>
-              <div class="text-center p-4">
-                <h5 class="mb-0">Instructor Name</h5>
-                <small>Designation</small>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-            <div class="team-item bg-light">
-              <div class="overflow-hidden">
-                <img class="img-fluid" src="img/team-4.jpg" alt="" />
-              </div>
-              <div
-                class="position-relative d-flex justify-content-center"
-                style="margin-top: -23px"
-              >
-                <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                  <a class="btn btn-sm-square btn-primary mx-1" href=""
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a class="btn btn-sm-square btn-primary mx-1" href=""
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a class="btn btn-sm-square btn-primary mx-1" href=""
-                    ><i class="fab fa-instagram"></i
-                  ></a>
-                </div>
-              </div>
-              <div class="text-center p-4">
-                <h5 class="mb-0">Instructor Name</h5>
-                <small>Designation</small>
-              </div>
-            </div>
-          </div>
+      <!-- sekapur sirih end -->
+
+      <!-- struktur -->
+      <div class="container-xxl py-5">
+        <div class="container">
+          <div class="text-center wow fadeInUp" data-wow-delay="0.ws">
+            <h6 class="section-title bg-white text-center text-primary px-5">
+              Struktur 
+            </h6>
+            <img class=" fadeInUp wow" data-wow-delay="0.2s" src="img/struktur.jpeg" alt="struktur">
+           </div>
         </div>
       </div>
-    </div>
-    <!-- Team End -->
+      <!-- struktur end -->
 
     <!-- Footer Start -->
     <div
