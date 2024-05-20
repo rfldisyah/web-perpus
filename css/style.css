@@ -306,6 +306,13 @@
 }
 
 /*** Service ***/
+
+.count-text {
+  font-size: 30px; /* Angka lebih besar */
+  font-weight: bold;
+  color: #333;
+}
+
 .service-item {
   background: var(--light);
   transition: 0.5s;
