@@ -265,6 +265,10 @@
 }
 
   
+.paragraf {
+  font-family: Nunito;
+  text-align: justify;
+}
 
 /*** Section Title ***/
 .section-title {
@@ -352,6 +356,11 @@
 }
 
 /*** Testimonial ***/
+
+.pengurus {
+  font-family: Nunito;
+}
+
 .testimonial-carousel::before {
   position: absolute;
   content: "";
@@ -431,7 +440,29 @@
   border-color: var(--primary);
 }
 
-/*** Footer ***/
+
+
+
+
+.footer {
+  margin-left: 3px;
+  font-family: "Nunito";
+  font-size: 13px;
+}
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 300px;
+  width: 100%;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 300px;
+  width: 100%;
+}
+
 .footer .btn.btn-social {
   margin-right: 5px;
   width: 35px;
@@ -477,8 +508,10 @@
 
 .footer .copyright {
   padding: 25px 0;
-  font-size: 15px;
+  font-size: 14px;
+  font-family: "Nunito";
   border-top: 1px solid rgba(256, 256, 256, 0.1);
+  text-align: center;
 }
 
 .footer .copyright a {
@@ -496,3 +529,37 @@
   padding-right: 0;
   border-right: none;
 }
+
+.contact-info p {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact-info p i {
+  margin-right: 5px; /* Adjust as needed */
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  margin-top: 10px; /* Adjust as needed */
+}
+
+.social-links .btn-social {
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 767px) {
+  .footer .copyright {
+    text-align: center;
+  }
+}
+
+
