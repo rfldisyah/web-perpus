@@ -112,7 +112,7 @@
 
 @media (max-width: 576px) {
   .brand-text {
-    font-size: 18px; /* Ukuran font lebih kecil pada layar yang lebih kecil */
+    font-size: 17px; /* Ukuran font lebih kecil pada layar yang lebih kecil */
   }
 }
 
@@ -560,4 +560,34 @@
   }
 }
 
+.gambar {
+  text-align: center; /* Posisikan gambar di tengah */
+}
 
+.gambar img {
+  max-width: 100%; /* Ukuran maksimum gambar adalah lebar container */
+  height: auto; /* Tinggi gambar disesuaikan secara otomatis */
+  display: block; /* Menghilangkan margin tambahan */
+  margin: 0 auto; /* Posisikan gambar di tengah */
+  padding: 0 15px; /* Berikan sedikit padding agar tidak terlalu dekat dengan tepi container */
+}
+
+
+.profile {
+  font-family: Nunito;
+  text-align: justify;
+}
+
+.container-xxl {
+  font-family: Nunito;
+  text-align: justify;
+}
+
+.sekapur {
+  font-family: Nunito;
+  text-align: justify;
+}
+
+.vision-mission-list {
+  margin-top: 30px; /* Menambahkan jarak antara judul dan ul */
+}
